@@ -1,0 +1,43 @@
+#header {
+	background-color: black;
+	
+	background-image: url("beach_selfie_thumbnail_black.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 8%;
+	
+    color: white;
+	font-size: 60px;
+	
+	margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+	padding: 15px 40px;
+	/*position: fixed;*/
+}
+
+#topNav li {
+	display: inline;
+}
+
+#topNav li a {
+	background-color: gray;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#topNav li a:hover {
+	background-color: black;
+    color: white;
+}
+
+#topNav {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	background-color: grey;
+	padding: 8px 0px;
+	/*position: fixed;*/
+}

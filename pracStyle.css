@@ -1,0 +1,147 @@
+ body {
+    background-color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#header {
+	background-color: black;
+	
+	background-image: url("beach_selfie_thumbnail_black.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 8%;
+	
+    color: white;
+	font-size: 60px;
+	
+	margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+	padding: 15px 40px;
+	/*position: fixed;*/
+}
+
+#topNav li {
+	display: inline;
+}
+
+#topNav li a {
+	background-color: gray;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#topNav li a:hover {
+	background-color: black;
+    color: white;
+}
+
+#topNav {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	background-color: grey;
+	padding: 8px 0px;
+	/*position: fixed;*/
+}
+
+#dynamicContent {
+	border-style: solid;
+	overflow: auto;
+	/*background-color: black; */
+}
+
+#dynamicContent:after {
+	content: "";
+	clear: both;
+	/*background-color: black; */
+}
+
+#sideNav {
+	background-color: l;
+	float: left;
+	width: 20%;
+	height: 100%;
+	border-style: solid;
+	border-color: black;
+}
+
+#sideNav ul li{
+	padding: 20px;
+}
+
+#sideNav ul li a {
+    color: black;
+	margin: 0;
+    padding: 28px 36px; /* highlight height vs offset (and highlight witdh) */
+    text-decoration: none;
+}
+
+#sideNav ul li a:hover {
+	background-color: green;
+    color: blue;
+}
+
+#sideNav ul{
+	list-style-type: none;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-color: lightblue;
+	padding: 28px 20px; /* offest from top vs how indented */
+	/*position: fixed;*/
+}
+
+#pageContent {
+	overflow: hidden;
+	width: 80%;
+	height: 100%;
+	/*height: 100px*/;
+	float: left;
+	background-color: black;
+	
+	background-image: url("battell_soccer_combined.jpg");
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-position: center top;
+	
+	border-style: solid;
+	border-color: black;
+	/*height: 1200px;*/
+}
+/*
+Image is now a background
+#pageContent img {
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+*/
+
+#pageContent div{
+	width: 50%;
+	height: 50%;
+	background-color: rgba(255,255,255,0.6);
+	/*
+	opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+	margin: auto;
+	margin-top: 10%;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+#pageContent div:hover {
+	background-color: rgba(255,255,255,0.8);
+}
+
+#pageContent div p{
+	margin: 20px;
+	font-size: 40px;
+	color: black;
+}

@@ -1,0 +1,64 @@
+#dynamicContent {
+	border-style: solid;
+	overflow: auto;
+	/*background-color: black; */
+}
+
+#dynamicContent:after {
+	content: "";
+	clear: both;
+	/*background-color: black; */
+}
+
+#sideNav {
+	background-color: lightblue;
+	float: left;
+	width: 20%;
+	height: 100%;
+	border-style: solid;
+	border-color: black;
+}
+
+#sideNav h1{
+	font-size: 45px;
+	text-align: center;
+	width: 100%;
+	height: 5%;
+}
+
+#sideNav ul{
+	list-style-type: none;
+	margin: 0;
+	width: 100%;
+	height: 80%;
+	padding: 10px 5px; /* offest from top vs how indented */
+	/*position: fixed;*/
+} 
+
+#sideNav ul div{
+	background-color: black;
+	height: 100%;
+	border-radius: 5px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#sideNav ul div:hover{
+	/*background-color: grey;*/
+	color: white;
+}
+
+#sideNav ul li{
+	height: 15%;
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+}
+
+#sideNav ul a {
+	font-size: 30px;
+    color: lightblue;
+    text-decoration: none;
+}

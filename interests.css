@@ -1,0 +1,44 @@
+ 
+#pageContent .contentInfo{
+	width: 94%;
+
+	background-color: rgba(255,255,255,0.85);
+	/*
+	opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+	margin: auto;
+	margin-top: 0%;
+	border-radius: 15px;
+	overflow: visible;
+}
+
+#pageContent .contentInfo:hover {
+	background-color: rgba(255,255,255,0.9);
+}
+
+#pageContent .contentTitle {
+	width: 94%;
+	margin:auto;
+	margin-bottom: 0;
+	margin-top: 2%;
+	background-color: black;
+	border-radius: 15px;
+}
+
+#pageContent .contentTitle p{
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	color: white;
+	font-size: 70px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+#pageContent .contentInfo p{
+	padding: 10px;
+	padding-top: 10px;
+	text-align: justify;
+	font-size: 18px;
+	color: black;
+}
